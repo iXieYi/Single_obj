@@ -14,8 +14,8 @@
 		8A4D264F1E003DD100BCC4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4D264E1E003DD100BCC4D2 /* Assets.xcassets */; };
 		8A4D26521E003DD100BCC4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4D26501E003DD100BCC4D2 /* LaunchScreen.storyboard */; };
 		8A4D265B1E003EC600BCC4D2 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D265A1E003EC600BCC4D2 /* NetworkTools.m */; };
-		8A4D26601E00419500BCC4D2 /* SecondNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D265F1E00419500BCC4D2 /* SecondNetworks.swift */; };
 		8A4D26621E0045C000BCC4D2 /* DemoViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D26611E0045C000BCC4D2 /* DemoViewViewController.swift */; };
+		8A4D26641E00E40F00BCC4D2 /* SecondNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D26631E00E40F00BCC4D2 /* SecondNetworks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		8A4D26591E003EC600BCC4D2 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
 		8A4D265A1E003EC600BCC4D2 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
 		8A4D265C1E00414A00BCC4D2 /* Single_test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Single_test-Bridging-Header.h"; sourceTree = "<group>"; };
-		8A4D265F1E00419500BCC4D2 /* SecondNetworks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondNetworks.swift; path = ../SecondNetworks.swift; sourceTree = "<group>"; };
 		8A4D26611E0045C000BCC4D2 /* DemoViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewViewController.swift; sourceTree = "<group>"; };
+		8A4D26631E00E40F00BCC4D2 /* SecondNetworks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondNetworks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +70,9 @@
 				8A4D26461E003DD100BCC4D2 /* AppDelegate.m */,
 				8A4D26481E003DD100BCC4D2 /* ViewController.h */,
 				8A4D26491E003DD100BCC4D2 /* ViewController.m */,
+				8A4D26631E00E40F00BCC4D2 /* SecondNetworks.swift */,
 				8A4D26591E003EC600BCC4D2 /* NetworkTools.h */,
 				8A4D265A1E003EC600BCC4D2 /* NetworkTools.m */,
-				8A4D265F1E00419500BCC4D2 /* SecondNetworks.swift */,
 				8A4D26611E0045C000BCC4D2 /* DemoViewViewController.swift */,
 				8A4D264B1E003DD100BCC4D2 /* Main.storyboard */,
 				8A4D264E1E003DD100BCC4D2 /* Assets.xcassets */,
@@ -167,8 +167,8 @@
 				8A4D265B1E003EC600BCC4D2 /* NetworkTools.m in Sources */,
 				8A4D264A1E003DD100BCC4D2 /* ViewController.m in Sources */,
 				8A4D26471E003DD100BCC4D2 /* AppDelegate.m in Sources */,
+				8A4D26641E00E40F00BCC4D2 /* SecondNetworks.swift in Sources */,
 				8A4D26441E003DD100BCC4D2 /* main.m in Sources */,
-				8A4D26601E00419500BCC4D2 /* SecondNetworks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +322,7 @@
 				8A4D26581E003DD100BCC4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
