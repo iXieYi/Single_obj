@@ -14,6 +14,7 @@ class DemoViewViewController: UIViewController {
         super.viewDidLoad()
 
 //        print(SecondNetworks.shareTools2)
+        print(NetworkTools.shareTools())//swift 调用oc代码
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
